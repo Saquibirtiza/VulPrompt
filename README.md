@@ -27,6 +27,6 @@ The functionalities of the scripts are as follows:
 Run the `gml file extractor.py` file to get the .gml files necessary to run our program. Please make sure the input directory paths are changed accordingly before running. 
 
 ## Step 3: Train Vulprompt:
-Run `pre_train.py` to pretrain the a GNN model. Then use **prompt_fewshot_gpf.py** to run the prompt tuning script. 
+Run `pre_train.py` to pretrain the a GNN model. Then use `prompt_fewshot_gpf.py` to run the prompt tuning script. 
 
 
