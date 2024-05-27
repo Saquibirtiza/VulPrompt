@@ -4,9 +4,12 @@ Repository for "VulPrompt: Prompt-based Vulnerability Detection using Few-shot G
 
 Abstract: Vulprompt is a new approach for detecting software vulnerabilities from source code by employing a prompt-based graph learning technique within a few-shot learning framework. Rather than adopting the \emph{Pretrain-Finetune} paradigm typical of prior works, it is the first to adopt the more recent \emph{Pretrain-Prompt} paradigm in this domain, which affords the creation of a smaller, lightweight model that outperforms larger models within other baseline methods. Evaluations conducted in a few-shot setting reflect the scarcity of large, high-quality labeled datasets for vulnerability detection in large software products---a prevalent issue in cybersecurity. Results show that the reduced number of trainable parameters for prompt-based learning models make them well-suited for this learning scenario, requiring only $n$ instances to train efficiently. The learnable prompt reduces the gap between the pretrain and downstream objectives for a particular task by adjusting the input data for the downstream task to fit the pretrained model. Comparative analyses between \sysname{} and other baseline methods demonstrate the model's robust performance across all datasets tested, consistently achieving notable results. 
 
+![alt text](./proposedmethod.png?raw=true)
+
+
 
 ## Requirements
-The packages used to run the code in this repository along with their version numbers are mentioned in the **package versions.txt** file.
+The packages used to run this repository along with their version numbers are mentioned in the `package versions.txt` file.
 
 ## Step 1: Convert code to graph:
 First run the **json_to_c_convertor+normalizer.py** file using the data in the data.zip folder.
